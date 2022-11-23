@@ -80,19 +80,19 @@ const locations = [{
         name: "dead monster",
         "button text": ["Get Back", "To The", "Town"],
         "button functions": [goTown, goTown, goTown],
-        text: "The " + monsters[fighting].name + " is dead.\n \nYou are victorious.\n \nYou gain new XP points and find some gold."
+        text: "The monster is dead.\n \nYou are victorious.\n \nYou gain new XP points and find some gold."
     },
     {
         name: "lose",
         "button text": ["Resurrect", "Your", "Ass"],
         "button functions": [restart, restart, restart],
-        text: "The " + monsters[fighting].name + " hits you a fatal blow...\n \nYou are dead.\n \nOr are you?"
+        text: "The monster hits you a fatal blow...\n \nYou are dead.\n \nOr are you?"
     },
     {
         name: "win",
         "button text": ["BACK", "TO THE", "BEGINNIG"],
         "button functions": [restart, restart, restart],
-        text: "As you watch " + monsters[fighting].name + " hit the ground before disappearing in a smoke of dust, it slowly hits you that this was your last enemy.\n \nYou've done it. For real this time.\n \nYou've won.\n \nCongratulations are in order, because no one really belived that you could actually achieve such extraordinary feat.\n \nThey were obviously unaware of your incredible hidden talents.\n \nAs you turn your head to the Future, the Past still sings faintly to your victorious ears...\n \nWould you like to go Back To The Beginning?"
+        text: "As you watch the last monster hit the ground before disappearing in a smoke of dust, it slowly hits you that this was your last enemy.\n \nYou've done it. For real this time.\n \nYou've won.\n \nCongratulations are in order, because no one really belived that you could actually achieve such extraordinary feat.\n \nThey were obviously unaware of your incredible hidden talents.\n \nAs you turn your head to the Future, the Past still sings faintly to your victorious ears...\n \nWould you like to go Back To The Beginning?"
     },
 ];
 
